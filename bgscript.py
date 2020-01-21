@@ -4,6 +4,8 @@
 Created on Tue Jan  7 20:48:14 2020
 
 @author: plkrishna2211
+This script runs in the background every half hour and checks the memory occupied by the contents of a file.
+If the memory exceeds 3000 bytes, this script deletes all the files of the directory.
 """
 import os as s
 def delabo(di):
